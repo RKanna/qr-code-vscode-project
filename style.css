@@ -30,6 +30,7 @@ body::before {
   border-radius: 1.5rem;
   position: relative;
   z-index: 1000;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px rgba(213, 225, 239, 255);
 }
 .img-sec {
   display: flex;
