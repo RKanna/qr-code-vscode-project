@@ -71,3 +71,10 @@ body::before {
     max-width: 100%;
   }
 }
+
+@media screen and (min-width: 1441px) {
+  body {
+    background-image: none;
+    background-color: rgba(213, 225, 239, 255);
+  }
+}
