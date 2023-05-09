@@ -49,6 +49,7 @@ body::before {
   margin-right: auto;
   text-align: center;
   padding-top: 1.2rem;
+  color: hsl(218, 44%, 22%);
 }
 .para {
   color: #9b9fa7;
