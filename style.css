@@ -3,22 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Outfit", sans-serif;
-  background-image: url(desktop-preview.png);
   background-repeat: no-repeat;
   background-position: center;
-}
-body::before {
-  content: "";
-  position: absolute;
-  top: 50px;
-  left: 7rem;
-  width: 81.3rem;
-  height: 40rem; /* adjust the height of the color overlay as needed */
+  display: flex;
   background-color: rgba(213, 225, 239, 255);
-  z-index: 1;
+  min-height: 100vh;
 }
 .box-white {
   margin-left: auto;
